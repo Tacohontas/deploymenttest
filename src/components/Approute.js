@@ -65,7 +65,6 @@ class Approute extends Component {
             <Route exact path="/userpage" component={UserPage} />
             <Route exact path="/userprofile" component={UserProfile} />
             {/* Tester */}
-            <Route exact path="/firebasetest" component={FirebaseTest} />
           </Switch>
         </BrowserRouter>
       </div>
