@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "_fonts";
+
+body {
+  background-color: #883f22;
+  background-color: #253866;
+  color: white;
+  font-family: lunchtype24expanded_regular;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0.3rem;
+  max-width: 1200px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.button {
+  font-family: lunchtype24expanded_regular;
+  font-size: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: 1px 1px 4px -2px #253866;
+  cursor: pointer;
+}
+
+.button__success {
+  @extend .button;
+  background: #709e4a;
+}
+
+.button__secondary {
+  @extend .button;
+  background-color: #51639a;
+}
+
+.button__warning {
+  @extend .button;
+  background-color: #b83535;
+}
+
+@import "navbar";
+@import "main";
+@import "card";
+@import "form";
+@import "adminprofile";
+@import "login";
+@import "register";
+@import "userprofile";
+@import "bookings";

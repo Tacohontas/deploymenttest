@@ -1,0 +1,41 @@
+.adminprofile_body {
+  display: grid;
+  // gap: 1rem;
+  grid-template-columns: 20% 80%;
+
+}
+
+.adminprofile__left{
+  button{
+    margin-bottom: 1rem;
+  }
+
+}
+
+.welcomeBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.products_preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.25rem;
+}
+
+#img__upload {
+  // This element is hidden in viewport
+  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
+.chosenproduct{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}

@@ -1,0 +1,44 @@
+.card {
+  width: 18rem;
+  background-color: #51639a;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  justify-self: center;
+  margin-bottom: 0.75rem;
+  min-height: 288px;
+}
+
+.card_img-top {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  max-width: 18rem;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.card__body {
+  padding: 1.25rem;
+  display: grid;
+}
+
+.card__title {
+  font-family: lunchtype24expanded_regular;
+  font-weight: 100;
+  margin-bottom: 0.75rem;
+  text-shadow: 1px 1px 2px #253866;
+}
+
+.card__text {
+  margin-bottom: 1rem;
+  font-family: lunchtype24expanded_light;
+}
+
+.card__preview{
+  @extend .card;
+  width: 15rem;
+  min-height: 100px;
+}
+
+

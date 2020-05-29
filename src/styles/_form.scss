@@ -1,0 +1,42 @@
+form {
+  width: 17rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.input_container {
+  display: grid;
+  gap: 0.7rem;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  min-height: 2.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  outline: none;
+  background-color: #394c75;
+  color: white;
+  font-family: lunchtype22regular;
+  font-size: 1rem;
+  resize: none;
+
+  &::placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+}
+
+textarea{
+  padding-top: .5rem
+}
+
+select {
+  appearance: none;
+  @extend input;
+}
