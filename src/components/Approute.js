@@ -8,7 +8,6 @@ import Navbar from "./Navbar";
 import Book from "../pages/Book";
 import AdminZone from "../pages/Adminzone";
 import EditProducts from "../pages/EditProducts";
-import FirebaseTest from "./Firebasetest";
 // import UserLogin from "./AuthUser/UserLogin";
 import UserProfile from "./AuthUser/UserProfile";
 import UserPage from "./AuthUser/UserPage";
